@@ -12,5 +12,9 @@ def home():
 def my_name(my_name):
     return "my name is {}".format(my_name)
 
+@app.route("/Test)
+def test_gram():
+    return "Worked"
+
 if __name__ == '__main__':
     app.run()
